@@ -1,11 +1,6 @@
 function pdePHK
 %Adapted from PDEAuxRevKan, which solve a 3-component gradient mechanism 
-%from 6/16/20 to 7/14/20. Changing variable names, 11/5/20.
-% Altered Sep. 2021 to use Ka, rather than Kd, in Hill term.
-% P is an upstream precursor of H. Could be a TF in general terms.
-% H is an HD ZIP III. Since these are known in conifers generally. Not REV
-% specifically. 
-% K is Kanadi, or the basal inhibitor of the central HD ZIP III. 
+%from 6/16/20 to 7/14/20. 
 %
 %   The equation is to hold on an interval 0 <= x <= 3 for times t >= 0.
 %   Boundary
